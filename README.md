@@ -1,6 +1,7 @@
 # Practical Application Assignment #1
 
-# Link to Jupyter Notebook
+## Link to Jupyter Notebook
+
 [coupon_analysis.ipynb](coupon_analysis.ipynb)
 
 ## EDA
@@ -8,15 +9,19 @@
 - Missing values were present in 6 columns
 - The cars column had a large amount of missing values and was dropped.
 - The remaining 5 columns had a very small percentage of missing values.
-- The remaider of examples with missing values were dropped as they were
+- The remainder of examples with missing values were dropped as they were
   a small percentage of the overall dataset.
-- The temperature column has only three distict values, which suggests
+- The temperature column has only three distinct values, which suggests
   that it is not very precise
+
+![missing](images/missing.png)
 
 ## Findings
 
 - 57% of drivers accepted coupons
 - Coffee House coupon were the most frequently offered.
+
+![accepting](images/accepting_coupons.png)
 
 ### Bar Coupons
 
@@ -28,7 +33,7 @@
 - Drivers who had passengers that were not kids, and who occupation
   was not in farming, fishing, or forestry were also mor likely to
   accept coupons
-- Those who go to bars more than once a month, had passengers that were 
+- Those who go to bars more than once a month, and had passengers that were
   not a kid, and were not widowed were likely to accept coupons
 - Those who go to bars more than once a month and are under the age of 30
   were also likely to accept coupons
@@ -38,15 +43,12 @@
 - Those who have kids are marginally less likely to accept coupons
   for more expensive restaurants.
 
+![alt text](images/drivers_with_kids.png)
+
 ## Next Steps
 
-- Target offerent Bar coupons to the those who visit the bar frequently
+- Target offering Bar coupons to the those who visit the bar frequently
 - Maybe offer less expensive or coupons for kid friendly restaurants to
   those with kids
-- Futher investigation into the types of coupons that are accepted most
+- Further investigation into the types of coupons that are accepted most
   by those with kids could be next steps.
-
-
-
-
-
